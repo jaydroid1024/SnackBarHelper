@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.snack_with_custom_action:
                 SnackBarHelper
                         .with(this)
+                        .view(mSnackTxtColor)
                         .setTwoActionLayout(R.layout.layout_snackbar)
                         .text("Snackbar with custom action", "ONE", "TWO")
                         .textColors(Color.RED, Color.GREEN, Color.BLUE)
@@ -77,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.snack_with_color:
                 SnackBarHelper
                         .with(this)
+                        .view(mSnackActionClick)
                         .text("Snackbar with native bg", "action")
                         .textColors(Color.WHITE, Color.YELLOW)
                         .backgroundColor(Color.BLACK)
@@ -92,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.snack_with_font:
                 SnackBarHelper
                         .with(this)
+                        .view(mSnackActionFont)
                         .text("Snackbar with Custom font", "ACTION")
                         .customTitleFont(Typeface.MONOSPACE)
                         .customActionFont(Typeface.MONOSPACE)
@@ -107,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.snack_with_icon:
                 SnackBarHelper
                         .with(this)
+                        .view(mSnackTitleIcon)
                         .setTwoActionLayout(R.layout.layout_snackbar)
                         .text("Snackbar with icon", "ONE", "TWO")
                         .textColors(Color.RED, Color.GREEN, Color.BLUE)
