@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SnackBarHelper.iml" filepath="$PROJECT_DIR$/SnackBarHelper.iml" />
-      <module fileurl="file://D:\Android\A-Project\SnackBarHelper\SnackBarHelper.iml" filepath="D:\Android\A-Project\SnackBarHelper\SnackBarHelper.iml" />
+      <module fileurl="file://D:/Android/A-Project/SnackBarHelper/SnackBarHelper.iml" filepath="D:/Android/A-Project/SnackBarHelper/SnackBarHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\Android\A-Project\SnackBarHelper\app\app.iml" filepath="D:\Android\A-Project\SnackBarHelper\app\app.iml" />
+      <module fileurl="file://D:/Android/A-Project/SnackBarHelper/app/app.iml" filepath="D:/Android/A-Project/SnackBarHelper/app/app.iml" />
     </modules>
   </component>
 </project>

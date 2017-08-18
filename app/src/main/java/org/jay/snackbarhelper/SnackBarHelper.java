@@ -18,7 +18,7 @@ import android.widget.TextView;
 import static android.content.Context.LAYOUT_INFLATER_SERVICE;
 
 /**
- * Created by Chandru-MacBook on 10/20/15.
+ * Created by Jay.
  */
 public class SnackBarHelper {
     private Context mContext;
